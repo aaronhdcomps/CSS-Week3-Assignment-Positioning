@@ -9,6 +9,7 @@
 body {
 	font-size: 16px;
 	font-family: 'Sanchez', serif;
+	min-width: 360px;
 }
 
 h1, h2, h3 {
@@ -17,37 +18,46 @@ h1, h2, h3 {
 
 aside {
 	float: left;
-	width: 40%;
+	min-width: 20%;
+	max-width: 360px;
+	padding: 0 .5em 0;
 }
 
 footer {
-
+	clear: both;
 }
 
 header {
-
+	position: relative;
+	left: 5px;
+	top: 5px;
 }
 
 img {
-	max-width: 50%;
+	max-width: 75%;
 }
 
 main {
 	float: left;
-	width: 50%;
+	max-width: 550px;
+	width: 60%;
+	min-width: 360px;
+	padding: 0 .5em 0;
 }
 
 nav {
 	float: left;
-	width: 10%;
-	margin: 2em 1em 1em 1em;
+	min-width: 10%;
+	margin: 0 5px 0;
 }
 
 #copyright {
-	clear: both;
 	font-size: 80%;
+	position: relative;
+	bottom: 5px;
+	left: 5px;
 }
 
 #main-container {
-
+	width: 100%;
 }
